@@ -73,7 +73,7 @@ function Delete1() {
   _PART_INDEX_X--;
 
   if(text1 === '') {
-    word1 = random(col1)+" "+random(col2);
+    word1 = random(col1)+" "+random(col3);
 
     clearInterval(_INTERVAL_VAL_X);
 
