@@ -111,7 +111,7 @@ function Delete2() {
   _PART_INDEX--;
 
   if(text2 === '') {
-    word2 = random(col3);
+    word2 = random(col4);
 
     clearInterval(_INTERVAL_VAL);
 
@@ -149,7 +149,7 @@ function Delete3() {
   _PART_INDEX_Y--;
 
   if(text3 === '') {
-    word3 = random(col4);
+    word3 = random(col2);
 
     clearInterval(_INTERVAL_VAL_Y);
 
