@@ -1,3 +1,2 @@
 # concept-generator
-
-https://burnedsap.github.io/concept-generator/
+https://juzbox.github.io/concept-generator/
