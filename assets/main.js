@@ -67,43 +67,43 @@ function Type1() {
   }
 }
 
-// function Delete1() {
-//   var text1 =  word1.substring(0, _PART_INDEX_X - 1);
-//   document.getElementsByClassName('x1')[0].innerHTML = text1;
-//   _PART_INDEX_X--;
-//
-//   if(text1 === '') {
-//     word1 = random(col1)+" "+random(col3);
-//
-//     clearInterval(_INTERVAL_VAL_X);
-//
-//     if(_PARTX == (word1.length - 1))
-//     _PARTX = 0;
-//     else
-//     _PARTX++;
-//
-//     _PART_INDEX_X = 0;
-//
-//     setTimeout(function() {
-//       _INTERVAL_VAL_X = setInterval(Type1, 100);
-//     }, 200);
-//   }
-// }
+function Delete1() {
+  var text1 =  word1.substring(0, _PART_INDEX_X - 1);
+  document.getElementsByClassName('x1')[0].innerHTML = text1;
+  _PART_INDEX_X--;
+
+  if(text1 === '') {
+    word1 = random(col1)+" "+random(col3);
+
+    clearInterval(_INTERVAL_VAL_X);
+
+    if(_PARTX == (word1.length - 1))
+    _PARTX = 0;
+    else
+    _PARTX++;
+
+    _PART_INDEX_X = 0;
+
+    setTimeout(function() {
+      _INTERVAL_VAL_X = setInterval(Type1, 100);
+    }, 200);
+  }
+}
 
 /*----------------------------------------------------------------------------------------------------------------------------------*/
 
-function Type2() {
-  var text2 =  word2.substring(0, _PART_INDEX + 1);
-  document.getElementsByClassName('y1')[0].innerHTML = text2;
-  _PART_INDEX++;
-
-  if(s%18 == 1) {
-    clearInterval(_INTERVAL_VAL);
-    setTimeout(function() {
-      _INTERVAL_VAL= setInterval(Delete2, 50);
-    }, 1000);
-  }
-}
+// function Type2() {
+//   var text2 =  word2.substring(0, _PART_INDEX + 1);
+//   document.getElementsByClassName('y1')[0].innerHTML = text2;
+//   _PART_INDEX++;
+//
+//   if(s%18 == 1) {
+//     clearInterval(_INTERVAL_VAL);
+//     setTimeout(function() {
+//       _INTERVAL_VAL= setInterval(Delete2, 50);
+//     }, 1000);
+//   }
+// }
 
 // function Delete2() {
 //   var text2 =  word2.substring(0, _PART_INDEX - 1);
@@ -130,18 +130,18 @@ function Type2() {
 
 /*----------------------------------------------------------------------------------------------------------------------------------*/
 
-function Type3() {
-    var text3 =  word3.substring(0, _PART_INDEX_Y + 1);
-  document.getElementsByClassName('z1')[0].innerHTML = text3;
-  _PART_INDEX_Y++;
-
-  if(s%18 == 1) {
-    clearInterval(_INTERVAL_VAL_Y);
-    setTimeout(function() {
-      _INTERVAL_VAL_Y= setInterval(Delete3, 50);
-    }, 1000);
-  }
-}
+// function Type3() {
+//     var text3 =  word3.substring(0, _PART_INDEX_Y + 1);
+//   document.getElementsByClassName('z1')[0].innerHTML = text3;
+//   _PART_INDEX_Y++;
+//
+//   if(s%18 == 1) {
+//     clearInterval(_INTERVAL_VAL_Y);
+//     setTimeout(function() {
+//       _INTERVAL_VAL_Y= setInterval(Delete3, 50);
+//     }, 1000);
+//   }
+// }
 
 // function Delete3() {
 //   var text3 =  word3.substring(0, _PART_INDEX_Y - 1);
